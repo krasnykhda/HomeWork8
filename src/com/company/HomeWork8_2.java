@@ -95,6 +95,8 @@ public class HomeWork8_2 {
                     break;
                 case "5":
                     break;
+                case "6":
+                    break;
                 default:
                     break;
             }
