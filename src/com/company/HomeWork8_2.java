@@ -80,9 +80,7 @@ public class HomeWork8_2 {
                     String idSearch=readLN(reader);
                     clientSearch=clients.get(idSearch);
                     accounts.stream().filter(a->a.getClient().getId().equals(idSearch)).forEach(a-> System.out.println(a.getAccountNumber()));
-
                    /* List allAccaunts=getAccount(clientSearch,accounts);
-
                     Iterator<Account> iter=allAccaunts.iterator();
                     System.out.println("Список счетов клиента: 1");
                     while (iter.hasNext()){
