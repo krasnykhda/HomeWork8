@@ -93,12 +93,6 @@ public class HomeWork8_2 {
                     String accSearch=readLN(reader);
                     System.out.println(searchClient.get(accSearch).getName());
                     break;
-                case "5":
-                    break;
-                case "6":
-                    break;
-                case "7":
-                    break;
                 default:
                     break;
             }
